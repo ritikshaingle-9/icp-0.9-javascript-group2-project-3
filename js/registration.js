@@ -40,3 +40,18 @@ function prev(){
   slide.src=images[index];
 }
 setInterval(next,2000);
+
+function store(){
+  const username = document.getElementById(`1name`);
+  const useremail = document.getElementById(`1email`);
+  const userphone = document.getElementById(`1phone`);
+  const useraddress  = document.getElementById(`1address`);
+  localStorage.setItem("Name",`${username.value}`);
+  localStorage.setItem("Email",`${useremail.value}`);
+  localStorage.setItem("Phone",`${userphone.value}`);
+  localStorage.setItem("Address",`${useraddress.value}`);
+  username.value="";
+  useremail.value="";
+  userphone.value="";
+  useraddress.value="";
+}

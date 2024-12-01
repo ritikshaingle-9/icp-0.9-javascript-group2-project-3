@@ -7,7 +7,7 @@ body{
 }
 .container{
     height: 440px;
-    width: 700px;
+    width: 750px;
     display: flex;
     flex-direction: row;
     margin-top: 200px;
@@ -23,7 +23,7 @@ body{
 }
 .slideimg-container{
     height: 440px;
-    width: 350px;
+    width: 375px;
     border-radius: 15px 0 0 15px;
     background-color: #e67300;
     position: relative;
@@ -31,7 +31,7 @@ body{
 
 .slide-img{
     height: 440px;
-    width: 350px;
+    width: 375px;
     object-fit: cover;
 }
 .nextprevious-img{
@@ -75,7 +75,7 @@ body{
     color: #232323;
 }  
 .input-box{
-    width: 260px;
+    width: 290px;
     height: 20px;
     padding: 10px;
     align-items: center;
@@ -152,6 +152,7 @@ body{
     width: 91%;
     margin: 10px 20px;
     padding: 10px;
+    cursor: pointer;
     background-color: rgb(208, 79, 79); 
     color: #232323; 
     border: none;
